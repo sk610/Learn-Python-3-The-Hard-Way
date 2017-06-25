@@ -5,6 +5,9 @@ weight = 180 # lbs
 eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
+height_cm = height * 2.54
+weight_kg = weight * 0.45359237
+print(f"Height is {height_cm}, and weight is {weight_kg}")
 
 print(f"Let's talk about {name}.")
 print(f"He's {height} inches tall.")
