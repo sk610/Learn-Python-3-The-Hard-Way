@@ -8,12 +8,12 @@ persian_cat = "I'm split\non a line."
 # creates singular backslashes around "a"
 backslash_cat = "I'm \\ a \\ cat."
 # takes a fat_cat string and tabs in every line. We don't have to use \n here because we are using """ for the string. (Still used it "just because" in line 15)
-fat_cat = """
+fat_cat = '''
 I'll do a list:
 \t* Cat food
 \t* Fishies
 \t* Catnip\n\t* Grass
-"""
+'''
 
 
 print(tabby_cat)
