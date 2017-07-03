@@ -19,9 +19,10 @@ print("Your third variable is:", third)
 
 # 3. Combine input with argv to make a script that gets more input from a user. Don't overthink it. Just use argv to get something, and input to get something else from the user.
 
-town1, town2, town3 = argv
+script, town1, town2, town3 = argv
 city = input()
 
+print("The name is:", script)
 print("One town is:", town1)
 print("The other one is:", town2)
 print("The third one is:", town3)
