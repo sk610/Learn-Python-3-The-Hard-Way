@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # imports argv from sys.
 from sys import argv
 
@@ -21,21 +20,3 @@ file_again = input("> ")
 txt_again = open(file_again)
 # prints out what is the in the file_again to the user.
 print(txt_again.read())
-||||||| merged common ancestors
-=======
-from sys import argv
-
-script, filename = argv
-
-txt = open(filename)
-
-print(f"Here's your file {filename}:")
-print(txt.read())
-
-print("Type the filename again:")
-file_again = input("> ")
-
-txt_again = open(file_again)
-
-print(txt_again.read())
->>>>>>> 1e1461d2f8d3bfec5113efccc1b9371853bf0126
