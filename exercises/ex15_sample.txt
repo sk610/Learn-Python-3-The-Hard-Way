@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 This is stuff I typed into a file.
 It is really cool stuff.
 Lots and lots of fun to have in here.
+||||||| merged common ancestors
+=======
+This is stuff I typed into a file.
+It is really cool stuff.
+Lots and lots of fun to have in here.
+>>>>>>> 1e1461d2f8d3bfec5113efccc1b9371853bf0126
