@@ -11,12 +11,12 @@ script, filename = argv
 
 print(f"We're going to erase {filename}.")
 print("If you don't want that, hit CTRL-C (^C).")
-print("If you dont want that, hit RETURN.")
+print("If you want that, hit RETURN.")
 
 input("?")
 
 print("Opening the file...")
-target = open(filename, 'w')
+target = open(filename, 'w') # 'w' stands for write.
 
 print("Truncating the file. Goodbye!")
 target.truncate()
@@ -29,12 +29,7 @@ line3 = input("line 3: ")
 
 print("I'm going to write these to the file.")
 
-target.write(line1)
-target.write("\n")
-target.write(line2)
-target.write("\n")
-target.write(line3)
-target.write("\n")
+target.write(f"{line1}" + '\n' + f"{line2}" + '\n' + f"{line3}" + '\n')
 
 print("And finally, we close it.")
 target.close()
