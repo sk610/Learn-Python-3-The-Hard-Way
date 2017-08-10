@@ -3,7 +3,7 @@
 - minus - does subtraction
 / slash - does division
 * asterisk - does multiplication
-% percent - modulo; remainder of
+% percent - modulo; The % (modulo) operator yields the remainder from the division of the first argument by the second.
 < less-than - less than x
 > greater-than - greater than x
 <= less-than-equal - equal or less than x
