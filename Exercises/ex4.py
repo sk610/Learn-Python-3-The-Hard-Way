@@ -38,3 +38,4 @@ Study drills
 2. Ok
 3. Ok
 4. = is basically an assignment operator. == is when something equals something else.
+5. Ok
