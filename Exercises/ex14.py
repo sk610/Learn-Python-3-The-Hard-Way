@@ -1,18 +1,19 @@
 from sys import argv
 
-script, user_name = argv
+script, user_name, last_name = argv
 question = '> '
 
-print(f"Hi {user_name}, I'm the {script} script.")
+print(f"Hi {user_name} {last_name}, I'm the {script} script.")
 print("I'd like to ask you a few questions.")
 print(f"Do you like me {user_name}?")
-likes = input(prompt)
+likes = input(question)
 
 print(f"Where do you live {user_name}?")
-lives = input(prompt)
+lives = input(question)
 
 print("What kind of computer do you have?")
-computer = input(prompt)
+computer = input(question)
+
 
 print(f"""
 Alright, so you said {likes} about liking me.
@@ -25,3 +26,6 @@ Study drills
 
 1. Ok
 2. Ok
+3. Ok
+4. Ok
+'''
