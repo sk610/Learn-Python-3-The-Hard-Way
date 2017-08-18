@@ -20,7 +20,7 @@ input("?")
 print("Opening the file...")
 target = open(filename, 'w') # w means opening the file in write mode
 print("Truncating the file. Goodbye!")
-target.truncate()
+#target.truncate()
 
 print("Now I'm going to ask you for three lines.")
 
@@ -30,12 +30,7 @@ line3 = input("line 3: ")
 
 print("I'm going to write these to the file.")
 
-target.write(line1)
-target.write("\n")
-target.write(line2)
-target.write("\n")
-target.write(line3)
-target.write("\n")
+target.write(line1 + "\n" + line2 + "\n" + line3)
 
 print("And finally, we close it.")
 target.close()
@@ -44,5 +39,6 @@ target.close()
 Study drills
 1. Ok
 2. Ok
-3.
+3. Ok
+4. Looks like we don't need line 23. 
 '''
