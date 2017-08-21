@@ -6,7 +6,8 @@ Functions do 3 things:
 '''
 
 # this one is like your scripts with argv
-def print_two(*args):
+# making a function
+def print_two(*args): # print_two is the function name. A function should have a name that says what it does.
     arg1, arg2 = args
     print(f"arg1: {arg1}, arg2: {arg2}")
 
