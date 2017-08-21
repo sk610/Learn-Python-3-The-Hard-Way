@@ -1,11 +1,13 @@
+# defining a function; giving it a name and telling what arguments we need.
 def cheese_and_crackers (cheese_count, boxes_of_crackers):
     print(f"You have {cheese_count} cheeses!")
     print(f"You have {boxes_of_crackers} boxes of crackers!")
     print("Man that's enough for a party!")
     print("Get a blanket.\n")
 
-
+# printing a string.
 print("We can just give the function numbers directly:")
+# passin arguments to the function.
 cheese_and_crackers(20, 30)
 
 
@@ -22,3 +24,10 @@ cheese_and_crackers(10 + 20, 5 + 6)
 
 print("And we can combine the two, variables and math:")
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+
+
+'''Study Drills
+1. Ok.
+2. Ok.
+3. Ok.
+'''
