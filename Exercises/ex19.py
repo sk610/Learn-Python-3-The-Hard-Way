@@ -29,5 +29,5 @@ cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 '''Study Drills
 1. Ok.
 2. Ok.
-3. Ok.
+3. Ok. Didn't do 10, but I got it working with `input()` which was cool.
 '''
