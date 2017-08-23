@@ -1,11 +1,14 @@
+# importing a python module
 from sys import argv
-
+# defining args
 script, input_file = argv
-
+# defining print_all funtion and saying that we need an f argument
 def print_all(f):
+    # printing the contents of the argument passed to the function.
     print(f.read())
-
+# defining rewind function with f argument.
 def rewind(f):
+    #
     f.seek(0)
 
 def print_a_line(line_count, f):
@@ -31,3 +34,11 @@ print_a_line(current_line, current_file)
 
 current_line = current_line + 1
 print_a_line(current_line, current_file)
+
+
+'''
+Study drills
+
+1. Ok.
+
+'''
