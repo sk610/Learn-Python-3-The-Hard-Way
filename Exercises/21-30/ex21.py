@@ -1,4 +1,6 @@
+# defining a function with 2 arguments
 def add(a, b):
+    # printing a string where we use arguments in it.
     print(f"ADDING {a} + {b}")
     return a + b
 
@@ -16,7 +18,7 @@ def divide(a, b):
 
 
 print("Let's do some math with just functions!")
-
+# Lines 22-25 is where we pass the arguments to the functions and define a value
 age = add(30, 5)
 height = subtract(78, 4)
 weight = multiply(90, 2)
@@ -31,3 +33,11 @@ print("Here is a puzzle.")
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 print("That becomes: ", what, "Can you do it by hand?")
+
+'''
+Study drills
+
+1. Ok.
+2. Ok.
+
+'''
