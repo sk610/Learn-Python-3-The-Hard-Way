@@ -18,11 +18,11 @@ print() = built in function that prints text
 
 < less-than - less than x
 
-.>  greater-than - greater than x
+>  greater-than - greater than x
 
 <= less-than-equal - equal or less than x
 
-.>= greater-than-equal - equal or greater than x
+>= greater-than-equal - equal or greater than x
 
 = - assigns value to a variable
 
