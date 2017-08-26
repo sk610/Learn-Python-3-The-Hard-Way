@@ -45,3 +45,5 @@ end = ' ' - ending a string with an empty string
 argv = argument variable
 
 from sys import - importing from python modules. Allows us to extend functionality of scripts.
+
+% - modulo
