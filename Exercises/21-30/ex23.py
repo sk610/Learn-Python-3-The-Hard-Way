@@ -21,3 +21,13 @@ def print_line(line, encoding, errors):
 languages = open("languages.txt", encoding="utf-8")
 
 main(languages, input_encoding, error)
+
+
+'''
+sys.argv
+strip()
+encode()
+errors=errors
+decode()
+encoding="utf-8"
+'''
