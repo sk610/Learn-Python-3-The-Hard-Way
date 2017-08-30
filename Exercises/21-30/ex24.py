@@ -27,6 +27,8 @@ def secret_formula(started):
 
 
 start_point = 10000
+# here we are passing start_point value to the secret_formula function.
+# so jelly beans becomes 10,000 times 500, and so forth.
 beans, jars, crates = secret_formula(start_point)
 
 # remember that this is another way to format a string
