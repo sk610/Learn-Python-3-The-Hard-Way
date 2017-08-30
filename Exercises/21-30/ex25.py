@@ -38,3 +38,6 @@ def print_first_and_last_sorted(sentence):
 sentence = "All good things come to those who wait."
 words = break_words(sentence)
 print(words)
+
+sorted = sort_words(words)
+print(sorted)
