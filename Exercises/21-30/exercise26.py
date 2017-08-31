@@ -1,3 +1,4 @@
+from sys import argv
 print("How old are you?", end=' ')
 age = input()
 print("How tall are you?", end=' ')
@@ -67,7 +68,7 @@ print("We'd have {} beans, {} jars, and {} crates.".format(*formula))
 
 
 people = 20
-cates = 30
+cats = 30
 dogs = 15
 
 
