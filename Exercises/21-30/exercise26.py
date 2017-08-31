@@ -1,14 +1,14 @@
 print("How old are you?", end=' ')
 age = input()
 print("How tall are you?", end=' ')
-print("How much do you weigh?", end=' '
+print("How much do you weigh?", end=' ')
 weight = input()
 
 print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 
 script, filename = argv
 
-txt = open(filenme)
+txt = open(filename)
 
 print("Here's your file {filename}:")
 print(tx.read())
@@ -22,7 +22,7 @@ print(txt_again_read())
 
 
 print('Let's practice everything.')
-print('You\'d need to know \'bout escapes 
+print('You\'d need to know \'bout escapes
       with \\ that do \n newlines and \t tabs.')
 
 poem = """
@@ -39,7 +39,7 @@ print(poem)
 print(--------------")
 
 
-five = 10 - 2 + 3 - 
+five = 10 - 2 + 3 -
 print(f"This should be five: {five}"
 
 def secret_formula(started)
@@ -95,4 +95,3 @@ if people <= dogs
 
 if people = dogs:
     print("People are dogs.")
-
