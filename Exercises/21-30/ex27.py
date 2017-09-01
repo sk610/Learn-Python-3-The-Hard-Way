@@ -9,3 +9,7 @@ not
 True
 False
 """
+
+"""
+Truth Tables
+"""
