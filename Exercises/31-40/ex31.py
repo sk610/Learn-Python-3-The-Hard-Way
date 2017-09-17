@@ -1,9 +1,9 @@
- print("""You enter a dark room with two doors.
- Do you go through door #1 or door #2?""")
+print("""You enter a dark room with two doors.
+Do you go through door #1 or door #2 or door #3?""")
 
- door = input("> ")
+door = input("> ")
 
- if door == "1":
+if door == "1":
      print("There's a giant bear here eating a cheese cake.")
      print("What do you do?")
      print("1. Take the cake.")
@@ -34,5 +34,21 @@ elif door == "2":
         print("The insanity rots your eyes into a pool of muck.")
         print("Good job!")
 
+elif door == "3":
+    print("You stand in front of Oasis.")
+    print("1. You think it is fake and this is just a dream.")
+    print("2. The water is poison and you're afraid to drink it.")
+    print("3. This is just a test, and you move forward.")
+
+    oasis = input("> ")
+
+    if oasis == "1":
+        print("Neo, wake up!")
+
+    if oasis == "2":
+        print("You take a step back and avoid water.")
+
+    if oasis == "3":
+        print("Good job, explorer!")
 else:
     print("You stumble around and fall on a knife and die. Good job!")
