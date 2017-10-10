@@ -31,5 +31,5 @@ print(stuff.pop())
 # print(stuff)
 # Returns the string with a designated separator, an empty space in this example.
 print(' '.join(stuff))
-# Returning iteams from the string at 3 through 5 index (excluding 5) with # separator.
+# Returning iteams from the string at 3 through 5 index (excluding 5) with # separator. (slicing a string)
 print('#'.join(stuff[3:5]))
