@@ -1,8 +1,10 @@
+# Assigning a string to a variable.
 ten_things = "Apples Oranges Crows Telephone Light Sugar"
-
+# printing a string.
 print("Wait there are not 10 things in that list. Let's fix that.")
-
+# returning a list of words in the string separated by a space.
 stuff = ten_things.split(' ')
+print(stuff)
 #print(stuff)
 
 more_stuff = ["Day", "Night", "Song", "Frisbee", "Corn", "Banana", "Girl", "Boy"]
