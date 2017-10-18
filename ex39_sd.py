@@ -22,3 +22,8 @@ euCities['DK'] = 'Kolding'
 print('-' * 10)
 print('Germany has: ', euCities['DE'])
 print('-' * 10)
+
+# printing out euCountries, their capitals and then additional cities
+print('-' * 10)
+print('Germany\'s cities are: ', euCities[euCountries['Germany']] )
+print('-' * 10)
